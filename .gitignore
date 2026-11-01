@@ -1,0 +1,13 @@
+# ---- 构建产物（build.bat 每次都会重新生成，无需入库）----
+src/*.obj
+src/*.exp
+src/*.lib
+src/*.dll
+src/gen_exports.exe
+src/generated_*.h
+src/generated_thunks.inc
+
+# ---- Visual Studio ----
+.vs/
+
+# 注意：UnityEditor/ 下的 d3d12.dll 与 D3D12Pre/*.dll 是发布载荷，必须入库，勿加忽略规则

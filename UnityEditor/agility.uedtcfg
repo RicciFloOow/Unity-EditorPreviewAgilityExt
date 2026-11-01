@@ -1,0 +1,6 @@
+; 需要保证系统处于Windows开发者模式
+[agility]
+; 1 = 本机所有项目默认走 D3D12Pre 分发
+; 0 = 默认纯转发，仅命令行带 -d3d12pre 的启动走 preview（推荐，按项目分流）
+enabled = 1
+strict = 0
